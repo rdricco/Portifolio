@@ -22,7 +22,24 @@ prose:
       - name: "layout"
         field:
           label: "Layout"
-          element: "text"
+          element: "select"
+          options:
+            - name: 'work_fullwidth'
+              value: 'work_fullwidth'
+            - name: 'work_sidebarleft'
+              value: 'work_sidebarleft'
+            - name: 'work_sidebarright'
+              value: 'work_sidebarright'
+            - name: 'portfolio_stackgrid_onlyimages'
+              value: 'portfolio_stackgrid_onlyimages'
+            - name: 'portfolio_toplabels'
+              value: 'portfolio_toplabels'
+            - name: 'portfolio_stackgrid_bottomlabels'
+              value: 'portfolio_stackgrid_bottomlabels'
+            - name: 'portfolio_threecolumns'
+              value: 'portfolio_threecolumns'
+            - name: 'portfolio_twocolumns'
+              value: 'portfolio_twocolumns'
           value: "post"
       - name: "category"
         field:
