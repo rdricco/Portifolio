@@ -22,8 +22,26 @@ prose:
       - name: "layout"
         field:
           label: "Layout"
-          element: "text"
-          value: "post"
+          element: "select"
+          options:
+            - name: 'single_post'
+              value: 'single_post'
+            - name: 'work_fullwidth'
+              value: 'work_fullwidth'
+            - name: 'work_sidebarleft'
+              value: 'work_sidebarleft'
+            - name: 'work_sidebarright'
+              value: 'work_sidebarright'
+            - name: 'post_stackgrid_onlyimages'
+              value: 'post_stackgrid_onlyimages'
+            - name: 'post_toplabels'
+              value: 'post_toplabels'
+            - name: 'post_stackgrid_bottomlabels'
+              value: 'post_stackgrid_bottomlabels'
+            - name: 'post_threecolumns'
+              value: 'post_threecolumns'
+            - name: 'post_twocolumns'
+              value: 'post_twocolumns'
       - name: "category"
         field:
           element: "text"
