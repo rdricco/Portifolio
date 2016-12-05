@@ -1,38 +1,34 @@
 # Site Settings
-locale                   : "en_US" #
-title                    : "r-ricco" #
-description              : "Make a memorable experience. Let your brand act in a way that well exceeds users' expectations. See what we can do to help you." #
+locale                   : "pt_BR" #
+title                    : "renato ricco" #
+description              : "Portfolio profissional." #
 author                   : "Renato Ricco" #
 tagline                  : "Designer Gráfico." #
 logo                     : /assets/images/default/logo.png #
-url                      : http://beta.r-ricco.xyz # the base hostname & protocol for your site
+url                      : http://renatoricco.com # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : rdricco/typejekyll # GitHub username/repo-name
+repository               : rdricco/portifolio # GitHub username/repo-name
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
 #Recent posts + miniabout
 miniabout-text           : "Make a memorable experience. Let your brand act in a way that well exceeds users' expectations. See what we can do to help you."
 miniabout-image          : "/assets/images/default/720-322.jpg"
-miniabout-buttontext     : "what we do"
+miniabout-buttontext     : "O que eu faço"
 miniabout-link           : "about.html"
 #Contact page information
 location         : "São Paulo - Brasil"
-address          : "R. Pedro Soares de Almeida, 74 Pompéia <br/>São Paulo, SP<br />(413) 863-1324"
+address          :
 mapcoordinate    : "-23.5971369,-46.7623594"
 #Footer information
 email            : "contato@r-ricco.xyz"
 copyright_url    : "http://r-ricco.xyz"
-dribbble         :
-flickr           :
 facebookurl      : "r.ricco"
-foursquare       :
 github           : "rdricco"
 instagram        : "r_ricco"
 pinterest        :
 tumblr           :
 twitterurl       : "r_ricco"
-vine             :
 youtube          :
 
 #Google maps plugin
@@ -56,14 +52,14 @@ paypal_currency          : "BRL" #
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-87873808-1"
-google_site_verification : "rn7Zq4Q6yeYhnGNhwL3CDcwUE1-RJbB71gX19_cpXj0"
+    tracking_id          : "UA-88472320-1"
+google_site_verification : "ANdJ9Vv8T9IUc75gMVb4ms3hd2Dgj1qMRKZzgEg2mRI"
 
 # Social Sharing
 twitter:
   username               : "r_ricco"
 facebook:
-  app_id                 : "734045723411639" # used on facebook analytics
+  app_id                 : "771692052969152" # used on facebook analytics
   publisher              : # use only for facebook pages
   username               : "r.ricco" # your personal profile
 og_image                 : "/assets/images/default/470-247.jpg" # Open Graph/Twitter default site image
@@ -119,7 +115,7 @@ collections:
     title: Portfolio
     permalink: /portfolio/:path/
   products:
-    output: true
+    output: false
     permalink: /products/:path/
 
 gems:
@@ -131,9 +127,9 @@ gems:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 20 # amount of posts to show
+paginate: 8 # amount of posts to show
 paginate_path: /blog/page:num/ # change to /page:num/ if you want to use paginate posts on home
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Sao_Paulo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 #SASS compression
 sass:
