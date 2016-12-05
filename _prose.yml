@@ -1,9 +1,8 @@
 prose:
-  siteurl: "http://beta.r-ricco.xyz/"
+  siteurl: "http://renatoricco.com/"
   #rooturl: '_posts'
   media: 'assets/images'
   ignore:
-    - LICENSE
     - feed.xml
     - .gitignore
     - Gemfile
@@ -11,6 +10,7 @@ prose:
     - /assets/css
     - /_includes
     - /_layouts
+    - /blog
     - LICENSE
   metadata:
     _posts:
@@ -80,7 +80,7 @@ prose:
         field:
           element: "checkbox"
           label: "Comments"
-          value: false
+          value: true
       - name: "published"
         field:
           element: "checkbox"
@@ -96,11 +96,11 @@ prose:
           label: "Layout"
           element: "select"
           options:
-            - name: 'work_fullwidth'
+            - name: 'Single Work: Full Width'
               value: 'work_fullwidth'
-            - name: 'work_sidebarleft'
+            - name: 'Single Work: Sidebar Left'
               value: 'work_sidebarleft'
-            - name: 'work_sidebarright'
+            - name: 'Single Work: Sidebar Right'
               value: 'work_sidebarright'
             - name: 'portfolio_stackgrid_onlyimages'
               value: 'portfolio_stackgrid_onlyimages'
@@ -157,7 +157,6 @@ prose:
           element: "checkbox"
           label: "Published"
           value: true
-
     _products:
       - name: "title"
         field:
