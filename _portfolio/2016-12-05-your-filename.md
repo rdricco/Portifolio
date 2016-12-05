@@ -5,7 +5,7 @@ image: /assets/images/01-small.jpg
 banner: /assets/images/01-large.jpg
 comments: false
 published: true
-title: ''
+title: Broto de Primavera
 project_images:
   - pimage_path: /assets/images/01-large.jpg
     ptitle: Capa do Manual do Broto
