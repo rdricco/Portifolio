@@ -9,8 +9,8 @@ prose:
     - Gemfile
     - Gemfile.lock
     - /assets/css
-    - /includes
-    - /layouts
+    - /_includes
+    - /_layouts
     - /blog
     - LICENSE
   metadata:
