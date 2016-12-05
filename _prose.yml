@@ -5,11 +5,14 @@ prose:
   ignore:
     - LICENSE
     - feed.xml
-    - 404.html
     - .gitignore
     - Gemfile
     - Gemfile.lock
     - /assets/css
+    - /includes
+    - /layouts
+    - /blog
+    - LICENSE
   metadata:
     _posts:
       - name: "title"
