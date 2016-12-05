@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work_sidebarleft
 date: '2016-12-05 16:11 -0200'
 image: /assets/images/01-small.jpg
 banner: /assets/images/01-large.jpg
