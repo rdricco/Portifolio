@@ -1,9 +1,8 @@
 prose:
-  siteurl: "http://beta.r-ricco.xyz/"
+  siteurl: "http://renatoricco.com/"
   #rooturl: '_posts'
   media: 'assets/images'
   ignore:
-    - LICENSE
     - feed.xml
     - .gitignore
     - Gemfile
@@ -11,6 +10,7 @@ prose:
     - /assets/css
     - /_includes
     - /_layouts
+    - /blog
     - LICENSE
   metadata:
     _posts:
