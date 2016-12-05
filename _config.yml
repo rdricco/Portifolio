@@ -15,7 +15,7 @@ atom_feed:
 miniabout-text           : "Make a memorable experience. Let your brand act in a way that well exceeds users' expectations. See what we can do to help you."
 miniabout-image          : "/assets/images/default/720-322.jpg"
 miniabout-buttontext     : "O que eu faço"
-miniabout-link           : "about.html"
+miniabout-link           : "/about/"
 #Contact page information
 location         : "São Paulo - Brasil"
 address          :
