@@ -1,8 +1,8 @@
 ---
 layout: work_fullwidth
 date: '2016-12-08 15:17 -0200'
-image: /assets/images/broto_01.png
-banner: /assets/images/broto_01.png
+image: /assets/images/broto_00.png
+banner: /assets/images/broto/broto_01.png
 comments: false
 published: true
 title: Broto de Primavera
