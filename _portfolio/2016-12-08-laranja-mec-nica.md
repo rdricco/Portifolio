@@ -1,7 +1,7 @@
 ---
 layout: work_fullwidth
 date: '2016-12-08 15:18 -0200'
-image: /assets/images/laranja_01.png
+image: /assets/images/laranja_00.png
 banner: /assets/images/laranja_01.png
 comments: false
 published: true
