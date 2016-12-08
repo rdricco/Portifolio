@@ -1,14 +1,11 @@
 ---
-layout: work_sidebarleft
-date: '2016-12-05 16:11 -0200'
-image: /assets/images/01-small.jpg
-banner: /assets/images/01-large.jpg
+layout: work_fullwidth
+date: '2016-12-08 15:17 -0200'
+image: /assets/images/broto_01.png
+banner: /assets/images/broto_01.png
 comments: false
-published: false
+published: true
 title: Broto de Primavera
-project_images:
-  - pimage_path: /assets/images/01-large.jpg
-    ptitle: Capa do Manual do Broto
 project_name: Manual de Identidade Visual
 project_client: Broto de Primavera
 project_year: '2016'
