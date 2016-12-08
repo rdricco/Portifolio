@@ -1,6 +1,6 @@
 ---
 title: 'Sample 1 (work: full width)'
-layout: work_fullwidth
+layout: work_sidebarleft
 category: design
 image: /assets/images/default/720-720.jpg
 project_name: Broto de Primavera
