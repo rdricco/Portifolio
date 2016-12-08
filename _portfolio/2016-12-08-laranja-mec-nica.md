@@ -10,6 +10,11 @@ category: Editorial
 project_name: Ilustração e Diagramação
 project_client: Educacional/Senac
 project_year: '2016'
+project_images:
+  - pimage_path: /assets/images/laranja/laranja_01.png
+  - pimage_path: /assets/images/laranja/laranja_02.png
+  - pimage_path: /assets/images/laranja/laranja_03.png
+  - pimage_path: /assets/images/laranja/laranja_04.png
 ---
 ## A New Post
 
