@@ -1,21 +1,20 @@
 ---
-title: "Sample 1 (work: full width)"
+title: 'Sample 1 (work: full width)'
 layout: work_fullwidth
 category: design
 image: /assets/images/default/720-720.jpg
 project_name: Broto de Primavera
 project_client: Broto de Primavera
-project_year: 2003
+project_year: '2003'
 project_images:
-  - pimage_path: "/assets/images/default/1160-500.jpg"
+  - pimage_path: /assets/images/default/1160-500.jpg
     ptitle: Apple Pie
-  - pimage_path: "/assets/images/default/1160-550.jpg"
+  - pimage_path: /assets/images/default/1160-550.jpg
     ptitle: Birthday Cake
-  - pimage_path: "/assets/images/default/1160-580.jpg"
+  - pimage_path: /assets/images/default/1160-580.jpg
     ptitle: Black Forest
-  - pimage_path: "/assets/images/default/1200-800.jpg"
+  - pimage_path: /assets/images/default/1200-800.jpg
     ptitle: Brownie
-
 flexslider:
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
     fitem: Item 01
@@ -29,6 +28,10 @@ flexslider:
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
     fitem: Item 04
     fcategory: design
+published: false
+date: '2016-12-08 16:37 -0200'
+banner: /assets/images/default/1160-450.jpg
+comments: false
 ---
 You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
 the site to see your changes. You can rebuild the site in many different ways, but
