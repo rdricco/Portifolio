@@ -9,6 +9,7 @@ title: Broto de Primavera
 project_name: Manual de Identidade Visual
 project_client: Broto de Primavera
 project_year: '2016'
+category: Branding
 ---
 ## A New Post
 
