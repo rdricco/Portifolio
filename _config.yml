@@ -19,10 +19,10 @@ miniabout-link           : "/about/"
 #Contact page information
 location         : "São Paulo - Brasil"
 address          :
-mapcoordinate    : "-23.5971369,-46.7623594"
+mapcoordinate    : "-23.59,-46.76"
 #Footer information
-email            : "contato@r-ricco.xyz"
-copyright_url    : "http://r-ricco.xyz"
+email            : "contato@renatoricco.com"
+copyright_url    : "/about/"
 facebookurl      : "r.ricco"
 github           : "rdricco"
 instagram        : "r_ricco"
@@ -36,8 +36,8 @@ gmaps_APIKEY             : "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU" #
 gmaps_coordinates        : "-23.5971369,-46.7623594" #
 
 #Communication plugins
-formspree_email          : "contato@r-ricco.xyz" #Used on contact form
-disqus_shortname         : "beta-project-from-r-ricco" #for comments on post pages
+formspree_email          : "contato@renatoricco.com" #Used on contact form
+disqus_shortname         : "" #for comments on post pages
 
 #### SHOP CONFIG
 shopname                 : "Bernd Products" #
