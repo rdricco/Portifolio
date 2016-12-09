@@ -16,6 +16,4 @@ project_images:
   - pimage_path: /assets/images/laranja/laranja_03.png
   - pimage_path: /assets/images/laranja/laranja_04.png
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Descrição

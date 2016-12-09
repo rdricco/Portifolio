@@ -13,6 +13,4 @@ project_year: '2016'
 project_images:
   - pimage_path: /assets/images/steinberg/05-large.jpg
 ---
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+Descrição
