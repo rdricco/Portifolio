@@ -7,7 +7,7 @@ comments: false
 published: true
 title: Laranja Mecânica
 category: Editorial
-project_name: Ilustração e Diagramação
+project_name: Capa Laranja Mecânica
 project_client: Educacional/Senac
 project_year: '2016'
 project_images:
