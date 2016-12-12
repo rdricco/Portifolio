@@ -33,7 +33,7 @@
     category: "Categoria"
     tags: "Tags"
     client: "Cliente"
-    findus: "Encontre-me"
+    findus: ""
     email: "Email"
     message: "Menssagem"
     where: "Onde"
