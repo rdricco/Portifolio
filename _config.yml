@@ -12,10 +12,10 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 #Recent posts + miniabout
-miniabout-text           : "Make a memorable experience. Let your brand act in a way that well exceeds users' expectations. See what we can do to help you."
+miniabout-text           : "Designer gráfico desde 2012 com experiência em produção gráfica, criação de materiais promocionais, identidade visual, diagramação e fechamento de arquivos.<br> <h5>Status atual: disponível para trabalhos.</h5><br>"
 miniabout-image          : "/assets/images/default/720-322.jpg"
-miniabout-buttontext     : "O que eu faço"
-miniabout-link           : "/about/"
+miniabout-buttontext     : "Entre em contato"
+miniabout-link           : "/contact/"
 #Contact page information
 location         : "São Paulo - Brasil"
 address          :
@@ -38,15 +38,6 @@ gmaps_coordinates        : "-23.5971369,-46.7623594" #
 #Communication plugins
 formspree_email          : "contato@renatoricco.com" #Used on contact form
 disqus_shortname         : "" #for comments on post pages
-
-#### SHOP CONFIG
-shopname                 : "Bernd Products" #
-shoplogo                 : "/assets/images/default/720-400.png"
-shopdescription          : "Bernd is a German luxury lifestyle brand founded in 1987 by Helmut Bernd. Today, it carries a range of products including clothings, furnitures, kitchenwares, and sports items." #
-shopbuttontext           : "Visit website"
-shopbuttonlink           : ""
-paypal_id                : "renato.mur@gmail.com" #
-paypal_currency          : "BRL" #
 
 # Analytics & SEO
 analytics:
@@ -84,7 +75,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single_post
+      layout: work_sidebarleft
       comments: true
   # _pages
   - scope:
@@ -100,13 +91,6 @@ defaults:
     values:
       layout: work_fullwidth
       comments: false
-  # _products
-  - scope:
-      path: ""
-      type: products
-    values:
-      layout: shop-item
-      comments: false
 
 #Collections
 collections:
@@ -114,9 +98,7 @@ collections:
     output: true
     title: Portfolio
     permalink: /portfolio/:path/
-  products:
-    output: false
-    permalink: /products/:path/
+
 
 gems:
   - jekyll-seo-tag

@@ -6,11 +6,12 @@ banner: /assets/images/revista_01.png
 comments: false
 published: true
 title: "Catálogo: O Cinema segundo os 2 Steinbergs"
-category: Diagramação
+category: editorial
+tags: [Edição e Diagramação]
 project_name: "Catálogo: O Cinema segundo os 2 Steinbergs"
 project_client: Educacional/Senac
 project_year: '2016'
 project_images:
   - pimage_path: /assets/images/steinberg/05-large.jpg
 ---
-Descrição
+Catálogo de obras artisticas desenvolvido em ambiente de estudo.

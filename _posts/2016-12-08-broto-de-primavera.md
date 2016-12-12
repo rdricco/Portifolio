@@ -6,10 +6,11 @@ banner: /assets/images/broto/broto_01.png
 comments: false
 published: true
 title: Broto de Primavera
-project_name: Manual de Identidade Visual
+project_name: manual de identidade visual
 project_client: Broto de Primavera
 project_year: '2016'
-category: Branding
+category: branding
+tags: [Mmanual de Identidade Visual]
 project_images:
 - pimage_path: /assets/images/broto/BROTO_MIV3.png
 - pimage_path: /assets/images/broto/BROTO_MIV5.png

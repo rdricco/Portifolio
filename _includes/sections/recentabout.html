@@ -9,7 +9,7 @@
 				<a href="{{ post.url }}" class="permalink">
 					<div class="item">
 						<h4>{{ post.title }}</h4>
-						<p class="meta"><span class="date">{{ post.date | date: "%d-%m-%Y" }}</span> / <span>{{ post.content | strip_html | truncatewords:10}}</span></p>
+						<p class="meta"><span>{{ post.content | strip_html | truncatewords:10}}</span></p>
 					</div><!-- // .item -->
 				</a><!-- // .permalink -->
 				{% endfor %}

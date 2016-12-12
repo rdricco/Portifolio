@@ -1,11 +1,11 @@
-- title: "Sobre"
-  href: "/about/"
+- title: "Contato"
+  href: "/contact/"
   children:
-    - childtitle: "Contato"
-      childhref: "/contact/"
+    - childtitle: "Sobre esse site"
+      childhref: "/about/"
 
 - title: "Portfolio"
-  href: "/portfolio/"
+  href: "/blog/"
 
 # - title: "Blog"
 #   href: "/blog/"
