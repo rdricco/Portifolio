@@ -1,7 +1,7 @@
 ---
 layout: work_sidebarleft
 date: '2016-12-08 06:22 -0200'
-image: /assets/images/steinberg_00.jpg
+image: /assets/images/steinberg_00.png
 banner: /assets/images/revista_01.png
 comments: false
 published: true
