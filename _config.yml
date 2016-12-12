@@ -15,14 +15,14 @@ atom_feed:
 miniabout-text           : "Designer gráfico desde 2012 com experiência em produção gráfica, criação de materiais promocionais, identidade visual, diagramação e fechamento de arquivos.<br> <h5>Status atual: disponível para trabalhos.</h5><br>"
 miniabout-image          : "/assets/images/default/720-322.jpg"
 miniabout-buttontext     : "Entre em contato"
-miniabout-link           : "/contact/"
+miniabout-link           : "/contato/"
 #Contact page information
 location         : "São Paulo - Brasil"
-address          :
+address          : "São Paulo - Brasil"
 mapcoordinate    : "-23.59,-46.76"
 #Footer information
 email            : "contato@renatoricco.com"
-copyright_url    : "/about/"
+copyright_url    : "/sobre/"
 facebookurl      : "r.ricco"
 github           : "rdricco"
 instagram        : "r_ricco"

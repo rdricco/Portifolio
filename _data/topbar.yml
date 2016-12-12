@@ -1,8 +1,8 @@
 - title: "Contato"
-  href: "/contact/"
+  href: "/contato/"
   children:
     - childtitle: "Sobre esse site"
-      childhref: "/about/"
+      childhref: "/sobre/"
 
 - title: "Portfolio"
   href: "/blog/"
