@@ -5,7 +5,7 @@
 		<div class="desktop-6 tablet-12 columns">
 			<div class="box-recent">
 				<h3><a href="/blog/">{{ site.data.ui-text[site.locale].recent }}</a></h3>
-				{% for post in site.posts limit:5 %}
+				{% for post in paginator.posts %}
 				<a href="{{ post.url }}" class="permalink">
 					<div class="item">
 						<h4>{{ post.title }}</h4>

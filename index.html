@@ -1,17 +1,22 @@
 ---
 layout: default
+pagination:
+  enabled: true
+  per_page: 5
+  collection: portfolio, posts
+  permalink: '/index/page/:num/'
 flexslider:
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
-    fitem: Item 01
+    fitem:
     fcategory: Design Editorial
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
-    fitem: Item 02
+    fitem:
     fcategory: Branding
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
-    fitem: Item 03
+    fitem:
     fcategory: Material Promocional
   - fslide: /assets/images/slider/flexslider_1600-500.jpg
-    fitem: Item 04
+    fitem:
     fcategory: Marketing Direto
 ---
 {% include /sections/recentabout.html %}

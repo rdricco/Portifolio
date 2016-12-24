@@ -1,5 +1,6 @@
   {% include /header/head.html %}
 <section id="header">
+  {% include /header/preloader.html %}
   {% include /header/topbar.html %}
   {% include /header/logo.html %}
 </section><!-- // #header -->
@@ -14,11 +15,10 @@
   {{ content }}
 
   {% if page.comments %}
-  {% include /disqus.html %}
+  {% include /sections/disqus.html %}
   {% endif %}
 
   {% include /footer/social_footer.html %}
-  {% include /footer/stylesheets.html %}
-  {% include /footer/js.html %}
+  {% include /footer/scripts.html %}
 </body>
 </html>

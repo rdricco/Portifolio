@@ -1,0 +1,18 @@
+<section id="works" class="stackgrid">
+	{% for post in paginator.posts %}
+		<div class="item wow">
+				<div class="remove-line-height">
+					<img src="{{ post.image | prepend: site.baseurl }}" alt=""/>
+				</div><!-- // .remove-line-height -->
+				<div class="box-desc">
+			<a href="{{ post.url | prepend: site.baseurl }}" class="permalink">
+					<h3>{{ post.title }}</h3>
+					<span class="category">{{ post.category }}</span>
+				</div><!-- // .box-desc -->
+			</a>
+		</div><!-- // .item -->
+	{% endfor %}
+	
+</section><!-- // section#works -->
+{% include /sections/paginate.html %}
+<div class="clear"></div>

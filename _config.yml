@@ -1,3 +1,4 @@
+############################################################
 # Site Settings
 locale                   : "pt_BR" #
 title                    : "renato ricco" #
@@ -5,21 +6,24 @@ description              : "Portfolio profissional." #
 author                   : "Renato Ricco" #
 tagline                  : "Designer Gráfico e coder." #
 logo                     : /assets/images/default/logo.png #
+# image: /path/to/your/default/image.png
 url                      : http://renatoricco.com # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : rdricco/portifolio # GitHub username/repo-name
 atom_feed:
   path                   : # blank (default) uses feed.xml
-
+############################################################
 #Recent posts + miniabout
 miniabout-text           : "Designer gráfico desde 2012 com experiência em produção gráfica, criação de materiais promocionais, identidade visual, diagramação e fechamento de arquivos.<br> <h5>Status atual: disponível para trabalhos.</h5><br>"
 miniabout-image          : "/assets/images/default/720-322.jpg"
 miniabout-buttontext     : "Entre em contato"
 miniabout-link           : "/contato/"
+############################################################
 #Contact page information
 location         : "São Paulo - Brasil"
 address          : "São Paulo - Brasil"
 mapcoordinate    : "-23.59,-46.76"
+############################################################
 #Footer information
 email            : "contato@renatoricco.com"
 copyright_url    : "/sobre/"
@@ -28,24 +32,24 @@ github           : "rdricco"
 instagram        : "r_ricco"
 pinterest        :
 tumblr           :
-twitterurl       : 
+twitterurl       :
 youtube          :
-
+############################################################
 #Google maps plugin
 gmaps_APIKEY             : "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU" #
 gmaps_coordinates        : "-23.5971369,-46.7623594" #
-
+############################################################
 #Communication plugins
 formspree_email          : "contato@renatoricco.com" #Used on contact form
 disqus_shortname         : "" #for comments on post pages
-
+############################################################
 # Analytics & SEO
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-88472320-1"
 google_site_verification : "ANdJ9Vv8T9IUc75gMVb4ms3hd2Dgj1qMRKZzgEg2mRI"
-
+############################################################
 # Social Sharing
 twitter:
   username               : "r_ricco"
@@ -63,7 +67,7 @@ social:
     - https://twitter.com/r_ricco
     - https://www.facebook.com/r.ricco
     - https://github.com/rdricco
-
+############################################################
 # Defaults
 defaults:
   - scope:
@@ -91,40 +95,75 @@ defaults:
     values:
       layout: work_fullwidth
       comments: false
-
+############################################################
 #Collections
 collections:
   portfolio:
     output: true
     title: Portfolio
-    permalink: /portfolio/:path/
-
-
+############################################################
 gems:
   - jekyll-seo-tag
-  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-menus
   - jemoji
-  - jekyll-paginate
+  - jekyll-twitter-plugin
+  - jekyll-maps
+  - jekyll-youtube
+  - jekyll-assets
+  - jekyll-language-plugin
+  - jekyll-auto-image
+  - jekyll-feed
   - jekyll-sitemap
-
-# Outputting
-permalink: /:categories/:title/
-paginate: 8 # amount of posts to show
-paginate_path: /blog/page:num/ # change to /page:num/ if you want to use paginate posts on home
+############################################################
+permalink: /:year/:month/:title.html
+pagination:
+  enabled: true
+  per_page: 8
+  permalink: '/blog/page/:num/'
+  title: ' - page :num'
+  sort_field: 'date'
+  sort_reverse: true
 timezone: America/Sao_Paulo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-#SASS compression
-sass:
-    sass_dir: _sass
-    style: :compressed
-
+############################################################
+assets:
+  debug: false
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  prefix: "/assets"
+  assets:
+    - "*.png"
+    - "*.jpg"
+    - "*.eot"
+    - "*.ttf"
+    - "*.woff2"
+    - "*.woff"
+    - "*.svg"
+    - "*.ico"
+    - "*.gif"
+  sources:
+    - _assets/css
+    - _assets/img
+    - _assets/js
+    - _assets/fonts
+  features:
+    liquid: false
+    automatic_img_size: true
+    automatic_img_alt : true
+############################################################
+language_data: data.lang.%%
+language_includes_dir: _i18n
+############################################################
+pages: ./_pages
+############################################################
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 # Markdown Processing
 kramdown:
   input: GFM
@@ -135,12 +174,35 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+############################################################
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - CNAME
 exclude:
+  - script
+  - .asset-cache
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - npm-debug.log
+  - package.json
+  - README.md
+  - vendor
+  - Rakefile
+  - gulpfile
+  - .gitignore
+  - .gitlab-ci.yml
+  - wercker.yml
+  - .travis.yml
+  - _config.yml
+  - README.md
+  - LICENSE
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -165,5 +227,4 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+############################################################
