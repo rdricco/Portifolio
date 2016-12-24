@@ -5,8 +5,8 @@ title                    : "renato ricco" #
 description              : "Portfolio profissional." #
 author                   : "Renato Ricco" #
 tagline                  : "Designer Gráfico e coder." #
-logo                     : /assets/images/default/logo.png #
-# image: /path/to/your/default/image.png
+logo                     : /assets/default/logo.png #
+# image: /path/to/your/assets/default/image.png
 url                      : http://renatoricco.com # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : rdricco/portifolio # GitHub username/repo-name
@@ -15,7 +15,7 @@ atom_feed:
 ############################################################
 #Recent posts + miniabout
 miniabout-text           : "Designer gráfico desde 2012 com experiência em produção gráfica, criação de materiais promocionais, identidade visual, diagramação e fechamento de arquivos.<br> <h5>Status atual: disponível para trabalhos.</h5><br>"
-miniabout-image          : "/assets/images/default/720-322.jpg"
+miniabout-image          : "/assets/default/720-322.jpg"
 miniabout-buttontext     : "Entre em contato"
 miniabout-link           : "/contato/"
 ############################################################
@@ -57,7 +57,7 @@ facebook:
   app_id                 : "771692052969152" # used on facebook analytics
   publisher              : # use only for facebook pages
   username               : "r.ricco" # your personal profile
-og_image                 : "/assets/images/default/470-247.jpg" # Open Graph/Twitter default site image
+og_image                 : "/assets/default/470-247.jpg" # Open Graph/Twitter default site image
 # - For specifying social profiles:
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -112,7 +112,6 @@ gems:
   - jekyll-youtube
   - jekyll-assets
   - jekyll-language-plugin
-  - jekyll-auto-image
   - jekyll-feed
   - jekyll-sitemap
 ############################################################
@@ -141,7 +140,7 @@ assets:
     - "*.gif"
   sources:
     - _assets/css
-    - _assets/images
+    - _assets/img
     - _assets/js
   features:
     liquid: false

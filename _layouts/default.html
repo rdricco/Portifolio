@@ -1,16 +1,19 @@
   {% include /header/head.html %}
 <section id="header">
-  {% include /header/preloader.html %}
   {% include /header/topbar.html %}
   {% include /header/logo.html %}
+  {% include /header/preloader.html %}
 </section><!-- // #header -->
 <body>
+
   {% if page.flexslider %}
   {% include /sections/flexslider.html %}
   {% endif %}
   {% if page.iosslider %}
   {% include /sections/iosslider.html %}
   {% endif %}
+
+
 
   {{ content }}
 

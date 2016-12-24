@@ -113,11 +113,11 @@ ul#nav {
     font-size: 15px;
     line-height: 25px;
     padding: 20px 0 20px 30px;
-    background: url('../images/default/menu_open.png') no-repeat left center;
+    background: url('../img/assets/default/menu_open.png') no-repeat left center;
     border-bottom: 1px solid $navigation-color3;
   }
   &.toggle-open #toggle-menu {
-    background-image: url('../images/menu_closed.png');
+    background-image: url('../img/menu_closed.png');
   }
   ul#menu-mobile {
     display: none;

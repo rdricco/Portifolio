@@ -55,12 +55,12 @@ prose:
         field:
           element: "text"
           label: "Thumbnail"
-          value: "/assets/images/default/720-720.jpg"
+          value: "/assets/default/720-720.jpg"
       - name: "banner"
         field:
           element: "text"
           label: "Post Banner"
-          value: "/assets/images/default/1160-450.jpg"
+          value: "/assets/default/1160-450.jpg"
       - name: "project_name"
         field:
           element: "text"
@@ -126,12 +126,12 @@ prose:
         field:
           element: "text"
           label: "Thumbnail"
-          value: "/assets/images/default/720-720.jpg"
+          value: "/assets/default/720-720.jpg"
       - name: "banner"
         field:
           element: "text"
           label: "Post Banner"
-          value: "/assets/images/default/1160-450.jpg"
+          value: "/assets/default/1160-450.jpg"
       - name: "project_name"
         field:
           element: "text"
@@ -166,7 +166,7 @@ prose:
         field:
           element: "text"
           label: "Thumbnail"
-          value: "/assets/images/default/720-720.jpg"
+          value: "/assets/default/720-720.jpg"
       - name: "item_description"
         field:
           element: "text"
@@ -195,7 +195,7 @@ prose:
         field:
           element: "text"
           label: "Thumbnail"
-          value: "/assets/images/default/720-720.jpg"
+          value: "/assets/default/720-720.jpg"
       - name: "quantity"
         field:
           element: "number"
