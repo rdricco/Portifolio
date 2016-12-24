@@ -101,6 +101,7 @@ collections:
   portfolio:
     output: true
     title: Portfolio
+    permalink: /portfolio/:path/
 ############################################################
 gems:
   - jekyll-seo-tag

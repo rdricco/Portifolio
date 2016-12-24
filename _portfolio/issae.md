@@ -6,7 +6,7 @@ banner: /assets/default/1160-450.jpg
 comments: false
 published: true
 title: Issa e
-category: branding
+category: Digipak
 tags: [Direção de Arte, Design, Embalagem]
 project_name: 'Issa e: Dark Matter'
 project_client: Issa e

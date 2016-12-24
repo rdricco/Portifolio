@@ -6,7 +6,7 @@ banner: /assets/default/1160-450.jpg
 comments: false
 published: true
 title: Flyjack
-category: branding
+category: Digipak
 tags: [Direção de Arte, Design, Embalagem]
 project_name: 'Flyjack: New Day'
 project_client: Flyjack
