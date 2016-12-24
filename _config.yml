@@ -136,18 +136,13 @@ assets:
   assets:
     - "*.png"
     - "*.jpg"
-    - "*.eot"
-    - "*.ttf"
-    - "*.woff2"
-    - "*.woff"
     - "*.svg"
     - "*.ico"
     - "*.gif"
   sources:
     - _assets/css
-    - _assets/img
+    - _assets/images
     - _assets/js
-    - _assets/fonts
   features:
     liquid: false
     automatic_img_size: true
