@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="desktop-6 tablet-12 columns">
 			<div class="box-recent">
-				<h3><a href="/blog/">{{ site.data.ui-text[site.locale].recent }}</a></h3>
+				<h3><a href="/portfolio/">{{ site.data.ui-text[site.locale].recent }}</a></h3>
 				{% for post in paginator.posts %}
 				<a href="{{ post.url }}" class="permalink">
 					<div class="item">
@@ -18,7 +18,9 @@
 		<div class="desktop-6 tablet-12 columns">
 			<div class="box-about">
 				<h3 class="font-color-primary"><span class="underline">{{ site.data.ui-text[site.locale].about }}</span></h3>
-				<img src="{{ site.miniabout-image | prepend: site.baseurl }}" alt="" />
+				<div class="box-img">
+					<img src="{{ site.miniabout-image | prepend: site.baseurl }}" alt="" />
+				</div>
 				<p class="tagline">{{ site.miniabout-text }}</p><!-- // p.tagline -->
 				<a href="{{ site.miniabout-link }}" class="button full">{{ site.miniabout-buttontext }}</a>
 			</div><!-- // .box-about -->
