@@ -126,6 +126,9 @@ pagination:
 timezone: America/Sao_Paulo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 ############################################################
 assets:
+  js_compressor: uglifier
+  css_compressor: sass
+  gzip: [ text/css, application/javascript, image/jpeg ]
   debug: false
   autoprefixer:
     browsers:
