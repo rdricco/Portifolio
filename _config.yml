@@ -103,19 +103,6 @@ collections:
     title: Portfolio
     permalink: /portfolio/:path/
 ############################################################
-gems:
-  - jekyll-seo-tag
-  - jekyll-paginate-v2
-  - jekyll-menus
-  - jemoji
-  - jekyll-twitter-plugin
-  - jekyll-maps
-  - jekyll-youtube
-  - jekyll-assets
-  - jekyll-language-plugin
-  - jekyll-feed
-  - jekyll-sitemap
-############################################################
 permalink: /:year/:month/:title.html
 pagination:
   enabled: true
@@ -173,6 +160,20 @@ kramdown:
   enable_coderay: false
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+############################################################
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+  - jekyll-menus
+  - jemoji
+  - jekyll-twitter-plugin
+  - jekyll-maps
+  - jekyll-youtube
+  - jekyll-assets
+  - jekyll-language-plugin
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-auto-image
 ############################################################
 # Reading Files
 include:
