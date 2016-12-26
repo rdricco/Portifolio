@@ -1,8 +1,8 @@
 ---
 layout: work_fullwidth
 date: '2016-12-01 16:36 -0200'
-image: /assets/anim_00.png
-banner: /assets/default/1160-450.jpg
+image: adentro_00.png
+banner: 1160-450.jpg
 comments: false
 published: true
 title: Adentro

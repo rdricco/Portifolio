@@ -1,12 +1,8 @@
----
-layout: page
----
 <section id="works" class="stackgrid">
 	{% for post in paginator.posts %}
 		<div class="item">
 				<div class="remove-line-height">
 					{% img "{{ post.image }}" %}
-					<!-- <img src="{{ post.image | prepend: site.baseurl }}" alt=""/> -->
 				</div><!-- // .remove-line-height -->
 				<div class="box-desc">
 			<a href="{{ post.url | prepend: site.baseurl }}" class="permalink">
@@ -17,5 +13,4 @@ layout: page
 		</div><!-- // .item -->
 	{% endfor %}
 </section><!-- // section#works -->
-{% include /sections/paginate.html %}
 <div class="clear"></div>

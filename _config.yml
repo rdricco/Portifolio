@@ -5,7 +5,7 @@ title                    : "renato ricco" #
 description              : "Portfolio profissional." #
 author                   : "Renato Ricco" #
 tagline                  : "Designer Gráfico e coder." #
-logo                     : /assets/default/logo.png #
+logo                     : logo.png #
 # image: /path/to/your/assets/default/image.png
 url                      : http://renatoricco.com # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -15,7 +15,7 @@ atom_feed:
 ############################################################
 #Recent posts + miniabout
 miniabout-text           : "Designer gráfico desde 2012 com experiência em produção gráfica, criação de materiais promocionais, identidade visual, diagramação e fechamento de arquivos.<br> <h5>Status atual: disponível para trabalhos.</h5><br>"
-miniabout-image          : "/assets/default/photo2.jpg"
+miniabout-image          : "photo2.png"
 miniabout-buttontext     : "Entre em contato"
 miniabout-link           : "/contato/"
 ############################################################
@@ -36,12 +36,15 @@ twitterurl       :
 youtube          :
 ############################################################
 #Google maps plugin
+maps:
+  google:
+    api_key: "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU"
 gmaps_APIKEY             : "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU" #
 gmaps_coordinates        : "-23.5971369,-46.7623594" #
 ############################################################
 #Communication plugins
 formspree_email          : "contato@renatoricco.com" #Used on contact form
-disqus_shortname         : "" #for comments on post pages
+disqus_shortname         : "renatoricco" #for comments on post pages
 ############################################################
 # Analytics & SEO
 analytics:
@@ -95,6 +98,7 @@ defaults:
     values:
       layout: work_fullwidth
       comments: false
+      image_path: /assets/portfolio/
 ############################################################
 #Collections
 collections:
@@ -130,11 +134,17 @@ assets:
     - "*.gif"
   sources:
     - _assets/css
-    - _assets/img
     - _assets/js
+    - _assets/img
+    - _assets/img/default
+    - _assets/img/slider
+    - _assets/img/pages
+    - _assets/img/posts
+    - _assets/img/portfolio
+
   features:
     liquid: false
-    automatic_img_size: true
+    automatic_img_size: false
     automatic_img_alt : true
 ############################################################
 language_data: data.lang.%%

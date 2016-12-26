@@ -19,7 +19,8 @@
 			<div class="box-about">
 				<h3 class="font-color-primary"><span class="underline">{{ site.data.ui-text[site.locale].about }}</span></h3>
 				<div class="box-img">
-					<img src="{{ site.miniabout-image | prepend: site.baseurl }}" alt="" />
+					{% img "{{ site.miniabout-image }}" %}
+					<!-- <img src="{{ site.miniabout-image | prepend: site.baseurl }}" alt="" /> -->
 				</div>
 				<p class="tagline">{{ site.miniabout-text }}</p><!-- // p.tagline -->
 				<a href="{{ site.miniabout-link }}" class="button full">{{ site.miniabout-buttontext }}</a>

@@ -1,8 +1,8 @@
 ---
 layout: work_sidebarleft
 date: '2016-12-08 06:22 -0200'
-image: /assets/steinberg_00.png
-banner: /revista_01.png
+image: steinberg_00.png
+banner: 1160-450.jpg
 comments: false
 published: true
 title: "Catálogo: O Cinema segundo os 2 Steinbergs"
@@ -12,6 +12,6 @@ project_name: "Catálogo: O Cinema segundo os 2 Steinbergs"
 project_client: Educacional/Senac
 project_year: '2016'
 project_images:
-  - pimage_path: /assets/steinberg/05-large.jpg
+  - pimage_path: steinberg_01.jpg
 ---
 Catálogo de obras artisticas desenvolvido em ambiente de estudo.

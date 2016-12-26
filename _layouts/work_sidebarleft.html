@@ -32,7 +32,8 @@ comments: false
 		</div><!-- // .desktop-3 .nested -->
 			<div class="desktop-9 tablet-12 columns">
 				{% for image in page.project_images %}
-				<img src="{{ image.pimage_path | prepend: site.baseurl }}" alt="{{ image.ptitle }}"/>
+				{% img '{{ image.pimage_path }}'%}
+				<!-- <img src="{{ image.pimage_path | prepend: site.baseurl }}" alt="{{ image.ptitle }}"/> -->
 				{% endfor %}
 			</div><!-- // .desktop-9 -->
 		<div class="clear"></div>
