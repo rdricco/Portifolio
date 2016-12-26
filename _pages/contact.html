@@ -2,6 +2,9 @@
 layout: page
 title: Contato
 permalink: /contato/
+location:
+ latitude: -23.5971369
+ longitude: -46.7623594
 ---
 <!-- Contact + Map =========================================== -->
 <section id="contact" class="section page">
@@ -37,6 +40,9 @@ permalink: /contato/
 				<p class="title-desc">{{ site.where }}</p>
 
 				<div id="map"></div>
+				<!-- {% google_map class="map" show_popup="false" zoom="11" %} -->
+
+
 			</div><!-- // .desktop-6 -->
 			<div class="clear"></div>
 			<div class="desktop-3 tablet-6 mobile-half columns">
@@ -60,3 +66,4 @@ permalink: /contato/
 	</div><!-- // .container -->
 </section><!-- // section#contact -->
 <div class="clear"></div>
+{% include /footer/js_maps.html %}
