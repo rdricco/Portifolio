@@ -12,7 +12,7 @@ project_year: '2016'
 category: branding
 tags: [Manual de Identidade Visual]
 project_images:
-- pimage_path: broto_08.png
+- pimage_path: broto_07.png
 - pimage_path: broto_01.png
 - pimage_path: broto_02.png
 - pimage_path: broto_03.png
