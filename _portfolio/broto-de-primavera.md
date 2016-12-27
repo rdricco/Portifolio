@@ -12,12 +12,12 @@ project_year: '2016'
 category: branding
 tags: [Manual de Identidade Visual]
 project_images:
-- pimage_path: broto_07.png
-- pimage_path: broto_01.png
-- pimage_path: broto_02.png
-- pimage_path: broto_03.png
-- pimage_path: broto_04.png
-- pimage_path: broto_05.png
-- pimage_path: broto_06.png
+  - pimage_path: broto_07.png
+  - pimage_path: broto_01.png
+  - pimage_path: broto_02.png
+  - pimage_path: broto_03.png
+  - pimage_path: broto_04.png
+  - pimage_path: broto_05.png
+  - pimage_path: broto_06.png
 ---
 Manual de Identidade Visual do Broto de Primavera, restaurante especializado em culinária vegana. Você pode acessar o manual na íntegra em alta qualidade [aqui](https://drive.google.com/file/d/0B3hR4sajYAW9am9ZOFJ1SThUcEU/view?usp=sharing).
