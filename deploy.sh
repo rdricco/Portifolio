@@ -28,7 +28,7 @@ rm -rf out/**/* || exit 0
 
 # Run our compile script
 bundle install
-bundle exec jekyll --destination out
+bundle exec jekyll build --destination out
 
 # Now let's go have some fun with the cloned repo
 cd out
