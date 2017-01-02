@@ -1,13 +1,13 @@
 {% if paginator.total_pages > 1 %}
 <div class="nav-pages">
 	{% if paginator.previous_page %}
-	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous" class="link-prev">
+	<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Anterior" class="link-prev">
 		<div>
 			<span>Previous</span>
 		</div>
 	</a><!-- // .link-prev -->
 	{% else %}
-	<a class="link-prev" class="link-disabled" title="Previous">
+	<a class="link-prev" class="link-disabled" title="Anterior">
 		<div>
 			<span>Previous</span>
 		</div>
@@ -15,13 +15,13 @@
 	{% endif %}
 
   {% if paginator.next_page %}
-	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Next" class="link-next">
+	<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Próxima" class="link-next">
 		<div>
 			<span>Next</span>
 		</div>
 	</a><!-- // .link-next -->
 	{% else %}
-	<a class="link-next" class="link-disabled" title="Next">
+	<a class="link-next" class="link-disabled" title="Próxima">
 		<div>
 			<span>Next</span>
 		</div>
