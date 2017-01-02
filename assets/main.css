@@ -98,6 +98,10 @@ p a {
   display: none !important; }
 
 /* Selection Highlighted Text */
+::-moz-selection, ::-moz-selection {
+  background: #1d8ced;
+  color: white;
+  text-shadow: none; }
 ::selection, ::-moz-selection {
   background: #1d8ced;
   color: white;
@@ -167,32 +171,18 @@ button, .button, a.button {
   border-bottom: 2px solid #1074cb;
   cursor: pointer;
   display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px; }
 
 button.small, .button.small, a.button.small {
   font-size: 14px;
   line-height: 24px;
   padding: 16px 24px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px; }
 
 button.full, .button.full, a.button.full {
   display: block;
   width: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
   border-radius: 5px;
   padding: 30px 40px 26px 40px;
   border-bottom: 4px solid #1074cb; }
@@ -228,8 +218,6 @@ input[type=text], input[type=url], input[type=tel], input[type=number], input[ty
   margin: 0 0 15px 0;
   border: 1px solid #dbdbdb;
   outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 textarea, select {
@@ -239,8 +227,6 @@ textarea, select {
   margin: 0 0 15px 0;
   border: 1px solid #dbdbdb;
   outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 input[type=text]:focus, input[type=url]:focus, input[type=tel]:focus, input[type=number]:focus, input[type=color]:focus, input[type=email]:focus, input[type=password]:focus {
@@ -312,8 +298,6 @@ span.required {
     display: block;
     width: 50%;
     float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box; }
   .nav-pages a.link-prev span, .nav-pages a.link-next span {
     display: inline-block;
@@ -591,8 +575,6 @@ ul#nav {
     left: 0;
     width: 100%;
     height: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box; }
     #works.stackgrid.images-only .item .box-desc h3 {
       color: white; }
@@ -811,8 +793,6 @@ section#cart .sidebar p.title-desc {
   margin: 0 0 12px 0;
   border: 1px solid #ddd;
   outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 #checkout textarea, #checkout select {
   width: 100%;
@@ -822,8 +802,6 @@ section#cart .sidebar p.title-desc {
   margin: 0 0 12px 0;
   border: 1px solid #ddd;
   outline: none;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 #checkout input[type=text]:focus, #checkout input[type=url]:focus, #checkout input[type=tel]:focus, #checkout input[type=number]:focus, #checkout input[type=color]:focus, #checkout input[type=email]:focus, #checkout input[type=password]:focus {
   color: #22eedd;
@@ -1137,8 +1115,6 @@ html[xmlns] .slides {
 
 .flex-viewport {
   max-height: 2000px;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
   transition: all 1s ease; }
 
 .loading .flex-viewport {
@@ -1201,9 +1177,6 @@ html[xmlns] .slides {
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
   text-indent: -9999px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
   border-radius: 20px;
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); }
   .flex-control-paging li a:hover {
@@ -1319,8 +1292,6 @@ html[xmlns] .slides {
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 .container .column.nest,
