@@ -7,7 +7,7 @@ comments: false
 published: true
 title: Invest Your Best Podcast
 category: branding
-tags: [Logo, Cover Art]
+tags: ["Logo, Cover Art"]
 project_name: Invest Your Best Podcast
 project_client: Invest Your Best
 project_year: '2016'

@@ -7,7 +7,7 @@ comments: false
 published: true
 title: Flyjack
 category: Digipak
-tags: [Direção de Arte, Design, Embalagem]
+tags: ["Direção de Arte, Design, Embalagem"]
 project_name: 'Flyjack: New Day'
 project_client: Flyjack
 project_year: '2016'

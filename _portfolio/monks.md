@@ -7,7 +7,7 @@ comments: false
 published: true
 title: Monks In Dunks Podcast
 category: branding
-tags: [Logo, Cover Art]
+tags: ["Logo, Cover Art"]
 project_name: 'Monks In Dunks'
 project_client: Monks In Dunks Podcast
 project_year: '2016'
