@@ -110,8 +110,10 @@ collections:
 permalink: /:year/:month/:title.html
 pagination:
   enabled: true
+  collection: 'portfolio'
   per_page: 8
-  title: ' - page :num'
+  permalink: '/page/:num/'
+  title: ':title - page :num'
   sort_field: 'date'
   sort_reverse: true
 timezone: America/Sao_Paulo # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
