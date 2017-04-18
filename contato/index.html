@@ -30,9 +30,11 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
-	<!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>Contato - renato ricco</title>
+	<!-- Begin Jekyll SEO tag v2.2.0 -->
+<title>Contato | renato ricco</title>
 <meta property="og:title" content="Contato" />
+<meta name="author" content="Renato Ricco" />
+<meta property="og:locale" content="en_US" />
 <meta name="description" content="Portfolio profissional." />
 <meta property="og:description" content="Portfolio profissional." />
 <link rel="canonical" href="http://renatoricco.com/contato/" />
@@ -47,8 +49,11 @@
 {"@context": "http://schema.org",
 "@type": "WebPage",
 "headline": "Contato",
+"author": {"@type": "Person",
+"name": "Renato Ricco"},
 "description": "Portfolio profissional.",
 "publisher": {"@type": "Organization",
+"name": "Renato Ricco",
 "logo": {"@type": "ImageObject",
 "url": "http://renatoricco.com/logo.png"}},
 "url": "http://renatoricco.com/contato/"}</script>
@@ -141,6 +146,9 @@ var jekyllMaps = (function () {
 
     function createMarker (location) {
       var position = new google.maps.LatLng(location.latitude, location.longitude)
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
       var marker = new google.maps.Marker({
         position: position,
         title: location.title,
@@ -148,21 +156,21 @@ var jekyllMaps = (function () {
         url: location.url,
         map: map
       })
-
-      bounds.extend(position)
       if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
 
       return marker
     }
 
     function markerPopup () {
-      var contentString = '<div class="map-info-window"><h5>' + this.title + '</h5>'
-      var link = 'View'
-      if (this.image.length > 0) {
-        link = '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      var contentHtml = '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageHtml = '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkText = this.image.length > 0 ? imageHtml : 'View'
+        contentHtml += '<a href="' + this.url + '">' + linkText + '</a></div>'
+      } else if (this.image.length > 0) {
+        contentHtml += imageHtml
       }
-      contentString += '<a href="' + this.url + '">' + link + '</a></div>'
-      infoWindow.setContent(contentString)
+      infoWindow.setContent(contentHtml)
       infoWindow.open(map, this)
     }
   }
@@ -306,12 +314,12 @@ if (typeof Object.assign !== 'function') {
 				<p class="title-desc"></p>
 
 				<div id="map"></div>
-				<!-- <div id='6c37d28a-3426-4638-9a33-05499bd39e5e' style='width:600px;height:400px;' class='map'></div>
+				<!-- <div id='7f41c584-288a-48af-ac25-0cbf2ca71945' style='width:600px;height:400px;' class='map'></div>
 <script type='text/javascript'>
   jekyllMaps.register(
-    '6c37d28a-3426-4638-9a33-05499bd39e5e',
+    '7f41c584-288a-48af-ac25-0cbf2ca71945',
     [{"latitude":-23.5971369,"longitude":-46.7623594,"title":"Contato","url":"/contato/","image":""}],
-    {"useCluster":true,"showMarkerPopup":false,"customZoom":11}
+    {"useCluster":true,"showMarker":true,"showMarkerPopup":false,"customZoom":11}
   );
 </script>
  -->
