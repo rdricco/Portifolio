@@ -40,7 +40,7 @@ maps:
   google:
     api_key: "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU"
 gmaps_APIKEY             : "AIzaSyDr89KPS6AUhP7e_ZBWBkDtOIDQaii8saU" #
-gmaps_coordinates        : "-23.5971369,-46.7623594" #
+gmaps_coordinates        : "-23.59713,-46.76235" #
 ############################################################
 #Communication plugins
 formspree_email          : "contato@renatoricco.com" #Used on contact form
