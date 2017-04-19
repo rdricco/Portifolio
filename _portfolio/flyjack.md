@@ -5,7 +5,7 @@ image: flyjack_00.png
 banner: 1160-450.jpg
 comments: false
 published: true
-title: Flyjack
+title: Flyjack - Album New Day
 category: Digipak
 tags: ["Direção de Arte, Design, Embalagem"]
 project_name: 'Flyjack: New Day'
