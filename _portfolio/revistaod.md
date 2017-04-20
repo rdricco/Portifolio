@@ -1,13 +1,13 @@
 ---
 layout: work_sidebarleft
-date: '2017-03-25 15:22 -0200'
-image: revista_00.png
+date: '2017-02-31 15:22 -0200'
+image: revistaod_00.png
 banner: 1160-450.jpg
 comments: false
-published: false
+published: true
 title: "Revista OD"
 category: editorial
-tags: Diagramação, edição, produção
+tags: ["Diagramação, Edição, Produção"]
 project_name: Revista OD
 project_client: Educacional/Senac
 project_year: '2016'

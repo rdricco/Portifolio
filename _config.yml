@@ -4,7 +4,7 @@ locale                   : "pt_BR" #
 title                    : "renato ricco" #
 description              : "Portfolio profissional." #
 author                   : "Renato Ricco" #
-tagline                  : "Designer Gráfico e coder." #
+tagline                  : "Designer gráfico e coder." #
 logo                     : logo.png #
 # image: /path/to/your/assets/default/image.png
 url                      : http://renatoricco.com # the base hostname & protocol for your site
