@@ -1,0 +1,29 @@
+image: ruby:2.3
+variables:
+  JEKYLL_ENV: production
+cache:
+  paths:
+    - vendor
+  key: "$CI_BUILD_REPO"
+before_script:
+  - export LC_ALL=C.UTF-8
+  - export LANG=C.UTF-8
+  - bundle install
+test:
+  stage: test
+  script:
+  - bundle
+  - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+     - test
+
+pages:
+  environment: production
+  stage: deploy
+  script:
+  - bundle
+  - bundle exec jekyll build -d public
+  artifacts:
+   paths:
+    - public
