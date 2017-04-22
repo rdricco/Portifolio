@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
-gem "jekyll", "3.3.1"
+gem "jekyll"
 # gem "minima", "~> 2.0"
 # gem 'rake'
 # gem 'rake-jekyll'
